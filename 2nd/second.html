@@ -11,11 +11,13 @@
 
     <p>{{ Lastname }}
         {{ firstname }}
-        {{ age }}
+        {{ age }} 
     </p>
-    <button v-on:click="age++">age</button>
     <button v-on:click="age--">age</button>
-    <div @click="changeTitle">Change Lastname</div>
+    <button v-on:click="age++">age</button>
+    <div @click="changeTitle">Change name</div>
+    <div @click="changeName">Change name</div>
+    
 </div>
 
 
